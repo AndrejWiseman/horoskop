@@ -2,10 +2,13 @@
     "version": 2,
     
         
-    "horoskop_2/main.py": {
-        "memory": 3009,
-        "maxDuration": 30
+
+    "functions": {
+        "horoskop_2/main.py": {
+        "maxDuration": 20
+        }
     },
+
           
     
     "routes": [
