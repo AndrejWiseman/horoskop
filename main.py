@@ -1,13 +1,13 @@
 from app import app
-from flask import Flask, render_template, url_for
+from flask import render_template
 
-from api.horoskop import blizanci
+from horoskop import blizanci
 
 
 
 
 @app.route('/')
-def hello_world():  # put application's code here
+def hello_world():
     return render_template('index.html')
 
 

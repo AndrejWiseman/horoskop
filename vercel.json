@@ -5,7 +5,7 @@
 
     "functions": {
         "main.py": {
-        "maxDuration": 20
+            "maxDuration": 20
         }
     },
 
@@ -14,7 +14,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.py"
+            "dest": "api/app.py"
         }
     ]
 }
