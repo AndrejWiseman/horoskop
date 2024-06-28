@@ -1,14 +1,14 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "functions": {
-              "app/api/**/*": {
-                "maxDuration": 15
-              }
-            }
-          }
-    ],
+    
+        
+    "functions": {
+        "app/api/**/*": {
+        "maxDuration": 15
+        }
+    },
+          
+    
     "routes": [
         {
             "src": "/(.*)",
