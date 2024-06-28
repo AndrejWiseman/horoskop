@@ -3,7 +3,7 @@
     
         
     "functions": {
-        "mhoroskop_2/main/**/*": {
+        "horoskop_2/main/**/*": {
         "maxDuration": 15
         }
     },
