@@ -4,7 +4,7 @@
         
 
     "functions": {
-        "api/horoskop.py": {
+        "main.py": {
         "maxDuration": 20
         }
     },
