@@ -3,7 +3,7 @@
     
         
     "functions": {
-        "app/api/**/*": {
+        "main/api/**/*": {
         "maxDuration": 15
         }
     },
