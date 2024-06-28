@@ -2,10 +2,9 @@
     "version": 2,
     
         
-    "functions": {
-        "horoskop_2/main/**/*": {
-        "maxDuration": 15
-        }
+    "horoskop_2/main.py": {
+        "memory": 3009,
+        "maxDuration": 30
     },
           
     
