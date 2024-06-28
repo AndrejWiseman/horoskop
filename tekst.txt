@@ -2,12 +2,9 @@
     "version": 2,
     "builds": [
         {
-            "functions": {
-              "app/api/**/*": {
-                "maxDuration": 15
-              }
-            }
-          }
+            "src": "./main.py",
+            "use": "@vercel/python"
+        }
     ],
     "routes": [
         {
@@ -15,4 +12,13 @@
             "dest": "main.py"
         }
     ]
+}
+
+
+{
+  "functions": {
+    "app/api/**/*": {
+      "maxDuration": 5
+    }
+  }
 }
